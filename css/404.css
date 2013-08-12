@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'EmulogicRegular';
+    src: url('../font/emulogic-webfont.eot');
+    src: url('../font/emulogic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/emulogic-webfont.woff') format('woff'),
+         url('../font/emulogic-webfont.ttf') format('truetype'),
+         url('../font/emulogic-webfont.svg#EmulogicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background: #000;
+	padding-top: 20px;
+	color: white;
+	text-align: center;
+	font-family: EmulogicRegular;
+}
+
+#bricks {
+	background: transparent url('../img/brick.png') top;
+}
+
+header#bricks {
+	height: 34px;
+}
+
+footer#bricks {
+	height: 51px;
+}
+
+#red {
+	color: #e80000;
+}
+
+#coin {
+	background: transparent url('../img/coin.png') no-repeat center;
+	padding-left: 15px;
+}
+
+#content {
+	margin: 50px 0px;
+}
+
+#mario {
+	background: transparent url('../img/mario.png') no-repeat center;
+	height: 190px;
+}
+
